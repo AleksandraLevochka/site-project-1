@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+
+div { 
+    width: 1497px;
+    height: 810px;
+    background-color: #024283;
+    animation-name: fade;
+    animation-duration: 1.8s;
+    animation-iteration-count: infinite; 
+    animation-direction: alternate; 
+}
+
+@keyframes fade {
+    from {background-color: #024283;}
+    to {background-color: #1F4B99;}
+    to {background-color: #0A73AD;}
+    to {background-color: #66A7BB;}
+    to {background-color: #B8D5DD;}
+    to {background-color: #E5EBF7;}
+    to {background-color: white;}
+    }
+
+  
+
+.img {
+    max-width: 1497px;
+    max-height: 810px;
+}
+

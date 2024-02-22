@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+div {
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+  }
+
+a {
+    color: #C5567B;
+    text-decoration: none;
+}
+
+.p {
+    font-family: 'Lora';
+    font-weight: 400;
+    font-size: 30px;
+    max-width: 15ch;
+    text-align: center;
+    color: #C5567B;
+}
+
+.rect {
+    width: 1490px;
+    height: 808px;
+    background: #FCA2BA;
+  }
+  
+.circle {
+    width: 550px;
+    height: 550px;
+    border-radius: 50%;
+    background: #F5EFD8;
+    animation: one 10s infinite;
+  }
+
+
+
+
+@keyframes one {
+    0% {
+        transform: scale(1);
+      }
+    50% {
+        transform: scale(2);
+      }
+    100% {
+        transform: scale(1);
+      }
+}
+

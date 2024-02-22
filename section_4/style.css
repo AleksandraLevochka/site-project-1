@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+/*
+a {
+    color: #FEEAD7;
+}
+*/
+
+.link1 {
+    color: #FEEAD7;
+}
+
+.link2 {
+   color: #024283
+}
+
+body {
+    margin: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    margin: 10px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 10px;
+}
+
+.box-1 {
+    height: 1250px;
+    position: relative;
+    background: linear-gradient(0deg, rgba(255,247,239,1) 0%, rgba(247,251,182,1) 22%, rgba(163,207,40,1) 52%, rgba(107,159,51,1) 81%);
+}
+
+.box-2 {
+    height: 1250px;
+    position: relative;
+    background: linear-gradient(0deg, rgba(236,130,48,1) 0%, rgba(251,151,73,1) 25%, rgba(247,206,167,1) 75%, rgba(254,234,215,1) 100%);
+    background-size: 200% 200%;
+    animation: two 5s infinite;
+}
+
+@keyframes two {
+    0% {
+        background-position: 0% 0%;
+    }
+    50% {
+        background-position: 100% 100%;
+    }
+    100% {
+        background-position: 0% 0%;
+    }
+}
+
+
+.box-3 {
+    height: 1250px;
+    position: relative;
+    background: linear-gradient(0deg, rgba(254,234,215,1) 0%, rgba(239,250,190,1) 34%, rgba(196,255,226,1) 65%, rgba(179,218,199,1) 100%);
+}
+
+.box-4 {
+    height: 1250px;
+    position: relative;
+    background: linear-gradient(0deg, rgba(252,162,186,1) 0%, rgba(254,199,214,1) 22%, rgba(255,244,211,1) 63%, rgba(255,241,228,1) 100%);
+    background-size: 200% 200%;
+    animation: four 5s infinite ease-in-out;
+}
+
+
+@keyframes four {
+    0% {
+        background-position: 0% 0%;
+    }
+    50% {
+        background-position: 100% 100%;
+    }
+    100% {
+        background-position: 0% 0%;
+    }
+}
+
+.h2 {
+    font-family: 'Cormorant Infant';
+    font-weight: 400;
+    margin: 0;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.p {
+    font-family: 'Lora';
+    font-weight: 400;
+    color: #FEEAD7;
+    line-height: 1.4;
+    position: absolute;
+    top: 1%;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: justify;
+}
+
+.p2 {
+    font-family: 'Lora';
+    font-weight: 400;
+    color: #024283;
+    line-height: 1.3;
+    position: absolute;
+    margin-left: 18px;
+    margin-right: 18px;
+    top: 60%;
+    text-align: justify;
+}
+
+.p3 {
+    font-family: 'Lora';
+    font-weight: 400;
+    color: #024283;
+    line-height: 1.4;
+    position: absolute;
+    margin-left: 17px;
+    margin-right: 17px;
+    top: 50%;
+    text-align: justify;
+}
+
+.p4 {
+    font-family: 'Lora';
+    font-weight: 400;
+    font-style: italic;
+    color: #024283;
+    position: absolute;
+    margin-left: 50px;
+
+    top: 95%;
+    text-align: left;
+}
+
+
+
+
+
+/*
+.p {
+    font-family: 'Lora';
+    font-weight: 400;
+    font-size: 22px;
+    max-width: 45ch;
+    text-align: justify;
+    margin-top: 45px;
+
+}
+
+.h1 {
+    font-family: 'Cormorant Infant';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 19px;
+    margin-top: 68px;
+}
+*/
