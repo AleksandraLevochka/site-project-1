@@ -60,8 +60,6 @@ body {
     animation-direction: alternate;
   }
   
-
-  
   @keyframes one {
     0% {
       transform: translate(0, 0);
@@ -97,5 +95,16 @@ body {
       transform: translate(780px, -200px);
     }
   }
+
+@media only screen and (max-width: 430px) {
+   
+    .p {
+      font-size: 16px;
+      max-width: 45ch;
+      padding: 20px;
+      margin-top: -80px;
+    }
+  
+}
   
  

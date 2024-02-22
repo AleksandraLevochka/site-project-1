@@ -26,18 +26,6 @@ a {
     margin-bottom: 30px;
 }
 
-.p2 {
-    font-family: 'Lora';
-    font-weight: 400;
-    font-size: 19px;
-    max-width: 40ch;
-    text-align: justify;
-    margin-top: 45px;
-    float: right;
-    margin-right: 150px;
-    margin-bottom: 30px;
-}
-
 
 div {
     display: flex;
@@ -127,4 +115,30 @@ div {
     100% {
         transform: translate(0, 0);
       }
+}
+
+@media only screen and (max-width: 430px) {
+   
+  .p {
+    font-size: 14px;
+    max-width: 50ch;
+    margin-left: 20px;
+    margin-top: 30px;
+  }
+
+  .rect {
+    width: 415px;
+    height: 300px;
+  }
+  
+  .circle {
+    width: 220px;
+    height: 220px;
+  }
+
+  .circle2 {
+    width: 120px;
+    height: 120px;
+  }
+
 }
